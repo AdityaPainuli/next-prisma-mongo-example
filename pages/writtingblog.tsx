@@ -89,7 +89,6 @@ const writtingblog = ({allAuthors}:any) => {
   )
 }
 
-export default writtingblog
 
 
 export const getStaticProps:GetStaticProps = async() => {
@@ -101,3 +100,5 @@ export const getStaticProps:GetStaticProps = async() => {
     }
   }
 }
+
+export default writtingblog
