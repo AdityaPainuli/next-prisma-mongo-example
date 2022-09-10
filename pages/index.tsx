@@ -36,10 +36,7 @@ const Home: NextPage = ({posts}:any) => {
 }
 
 export const getStaticProps: GetStaticProps = async() => {
-  const posts = await prisma.posts.findMany({
-    
-  
-  })
+  const posts = await prisma.posts.findMany()
   
 
   return {
